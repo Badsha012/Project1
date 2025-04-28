@@ -1,0 +1,318 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared styles */
+button{
+    color: 0D1321;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Nav styles */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+/* <!-- Background image add --> */
+.box{
+    width: 1520px;
+    height: 652px;
+    background-image: url('Asses/group2.jpg');
+}
+
+.box-1{
+    width: 1015px;
+    height: 600px;
+    text-align: center;
+    margin-left: 225px;
+}
+
+.box-title{
+    font-size: 50px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.description-box{
+    font-size: 17px;
+    color: #0D1321;
+    line-height: 27px;
+}
+
+.contact-btn{
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0D1321;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.group{
+    margin-top: 25px;
+}
+
+/* Development styles */
+.development{
+    height: 1400px;
+    width: 1125px;
+    background-color: rgba(13, 19, 33, 0.04);
+    margin: 100px 180px;
+    border-radius: 10px;
+}
+.development-div{
+    padding: 80px 98px 80px 98px;
+    width: 920px;
+}
+
+.development-div1{
+    padding: 0 40px 0 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.development-title{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+/* Coding style */
+.coding-1st{
+    display: flex;
+    padding: 20px 40px 0 40px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 280px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.first{
+    width: 440px;
+    height: 220px;
+}
+.first-title{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    padding-right: 20px;
+}
+
+.button-div{
+    margin-top: 20px;
+    font-size: 20px;
+    color:  #0D1321;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.second-title{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    padding-right: 30px;
+}
+
+/* Development1 style */
+.development1{
+    height: 780px;
+    width: 1125px;
+    margin: 100px 180px;
+    border-radius: 10px;
+}
+
+.development1-div{
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+
+.video-div{
+    padding: 32px;
+    border: 1px solid #bfbfbf;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#video-link{
+
+margin: auto
+;
+}
+/* Development2 style */
+
+.development2{
+    height: 1600px;
+    width: 1150px;
+    margin: 100px 180px;
+    border-radius: 10px;
+}
+
+.target-div{
+    width: 1150px;
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.target1-div, .target2-div, .target3-div{
+    width: 370px;
+    height: 300px;
+}
+
+.target-div1, .target-div2, .target-div3{
+    background-color: rgba(183, 79, 53, 0.05);
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.target-div2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.target-div3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-learn{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* next target */
+.development-next{
+    margin-top: 70px;
+}
+
+.next-target{
+    width: 1150px;
+    height: 710px;
+    margin-top: 50px;
+}
+
+.next-target1{
+    height: 210px;
+    border: 1px solid rgb(182, 177, 177);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.react-target{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.img-div{
+    margin: 40px 0px 0px 15px;
+}
+
+/* Support section */
+.support{
+    width: 1150px;
+    height: 315px;
+    margin-top: 50px;
+    margin: 100px 180px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("Asses/bs.jpg");
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.support-div{
+    width: 1050px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.support-title{
+    font-size: 32px;
+    color: white;
+}
+
+.support-details{
+    width: 610px;
+    height: 55px;
+}
+
+.support-des{
+    color: white;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+input[type="Submit"]{
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer style */
+footer{
+    width: 1520px;
+    height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 40px;
+}
+
+.footer-des{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-img{
+    margin-top: 10px;
+}
+
+.image{
+    padding-left: 10px;
+}
